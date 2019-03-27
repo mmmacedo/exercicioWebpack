@@ -1,0 +1,28 @@
+{
+  "requires": true,
+  "lockfileVersion": 1,
+  "dependencies": {},
+  "name": "exercicioWebpack",
+  "description": "Aprendizado de webpack",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --progress --colors --inline --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmmacedo/exercicioWebpack.git"
+  },
+  "keywords": [],
+  "author": "mmmacedo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmmacedo/exercicioWebpack/issues"
+  },
+  "homepage": "https://github.com/mmmacedo/exercicioWebpack#readme"
+}

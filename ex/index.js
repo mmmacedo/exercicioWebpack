@@ -1,15 +1,7 @@
-const produto = {
-    nome: 'Caneta Preta',
-    preco: 1.90,
-    desconto: 0.05
-}
+import React from 'react';
+import '../stilos/estilo.css';
 
-function clone(objeto) {
-    return { ...objeto } //'...' operador rest ou spread copia objeto
-}
+const Home = () => <h1>Hello World!</h1>
 
-const novoProduto = clone(produto);
-console.log(novoProduto);
+export default Home;
 
-novoProduto.nome = 'Caneta azul';
-console.log(novoProduto);

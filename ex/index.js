@@ -1,5 +1,15 @@
-import Pessoa from './Pessoa';
+const produto = {
+    nome: 'Caneta Preta',
+    preco: 1.90,
+    desconto: 0.05
+}
 
-const pessoa = new Pessoa('mmmacedo!');
+function clone(objeto) {
+    return { ...objeto } //'...' operador rest ou spread copia objeto
+}
 
-console.log(pessoa.toString());
+const novoProduto = clone(produto);
+console.log(novoProduto);
+
+novoProduto.nome = 'Caneta azul';
+console.log(novoProduto);
